@@ -9,6 +9,8 @@ html{
     
     background-color: black;
 }
-@media{
-    
+@media screen and (min-width: 480px) {
+    h2{
+        font-size:5px ;
+    }    
 }
