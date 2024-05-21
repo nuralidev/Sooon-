@@ -1,0 +1,11 @@
+h2{
+    transition: 0.5ms all;
+    text-align: center;
+    font-size: 99px;
+    margin-top: 20%;
+    color: #00ffee;
+}
+html{
+    
+    background-color: black;
+}
