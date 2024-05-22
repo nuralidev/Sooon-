@@ -1,4 +1,5 @@
 h2{
+    padding: 0px;
     text-align: center;
     font-size: 99px;
     color: #00ffee;
@@ -13,19 +14,22 @@ html{
 }
 h2:hover{
     transition: 0.5s ease-in;
-    text-shadow: 5px 5px 5px  #afaeae9f;
-    font-size: 120px;
+    text-shadow: 3px 2px 4px  #ffffff;
+    font-size: 110px;
 }
 body{
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
 img{
+    display: inline-block;
     padding: 0px;
-    margin-top: 5px;
     height: 25%;
     width: 25%;
     margin-bottom: 0px;
 
+}
+img:hover{
+    transition: 2s ease-in-out;
+    height: 30%;
+    width: 30%;
 }
