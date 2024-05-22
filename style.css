@@ -12,3 +12,7 @@ html{
         font-size:25px ;
     }    
 }
+h2:hover{
+    transition: 2s ease-in;
+    font-size: 150px;
+}
