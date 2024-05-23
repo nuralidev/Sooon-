@@ -1,26 +1,36 @@
-h2{
+h2 {
     padding: 0px;
     text-align: center;
     font-size: 99px;
     color: #00ffee;
 }
-html{
+
+html {
     background-color: black;
 }
-@media(max-width:480px){
-    h2{
-        font-size:25px ;
-    }    
+
+@media(max-width:480px) {
+    h2 {
+        font-size: 25px;
+    }
+
+    img:hover {
+        height: 15%;
+        width: 15%;
+    }
 }
-h2:hover{
+
+h2:hover {
     transition: 0.5s ease-in;
-    text-shadow: 3px 2px 4px  #ffffff;
+    text-shadow: 3px 2px 4px #ffffff;
     font-size: 110px;
 }
-body{
+
+body {
     text-align: center;
 }
-img{
+
+img {
     display: inline-block;
     padding: 0px;
     height: 25%;
@@ -28,7 +38,8 @@ img{
     margin-bottom: 0px;
 
 }
-img:hover{
+
+img:hover {
     transition: 2s ease-in-out;
     height: 30%;
     width: 30%;
